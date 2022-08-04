@@ -1,12 +1,70 @@
+
+*{
+    font-family: Helvetica;
+    /* border: 2px solid red; */
+}
+
+html, body{
+    margin: 0;
+    text-align: center;
+}
+
+p{
+    color: black;
+    font-size: 24px;
+}
+
+h1{
+    color: black;
+    
+}
+
 a{
     color: white;
     text-decoration: none;  
 }
-
-a:hover{
-    color: antiquewhite;
+.navbar-container{
+    background-color: #333333;
+    display: grid;
+    grid-gap: 3px;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    
 }
 
-.px-4 py-5 my-5 text-center{
-    padding-bottom: 200px;
+.nav-ul{
+    list-style-type: none;
+    padding: 5px;
+    margin: 10px;
+}    
+
+.nav-li{
+    display: inline;
+    padding: 5px;
+    font-size: 20px;
+    
+}
+
+.nav-li:hover a{
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+.page-header{
+    display: grid;
+    justify-content: center;
+    
+}
+
+.p-container{
+    display: grid;
+    justify-content: center;
+    margin: 4rem;
+    text-align: center;
+    
+}
+
+.p-body{
+    align-items: center;
 }
