@@ -66,8 +66,11 @@ a{
 #logo-img{
     display: grid;
     align-items: end;
-    padding: 10px;
-    margin: 5px;
+    padding: 5px;
+    margin: 10px;
+    border: 1px solid #36454F;
+    border-radius: 10%;
+    background-color: #495D6A;
 }
 
 .sign-up-btn{
@@ -85,6 +88,14 @@ a{
 
 .sign-up-btn:hover{
     background-color: rgb(125, 38, 183);
+    color: white;
+}
+
+#sign-up-a{
+    color: black;
+}
+
+#sign-up-a:hover{
     color: white;
 }
 
@@ -112,6 +123,33 @@ a{
 
 .p-body{
     align-items: center;
+}
+
+/* 
+    BOXES
+*/
+.home-box-container{
+    display: grid;
+    margin: 0;
+}
+
+.home-box-ul{
+    display: grid;
+    grid-gap: 0;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0px;
+    width: 100%;
+    grid-template-columns: repeat(3, 1fr);
+    list-style-type: none;
+}
+
+.home-box-li{
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+    width: 50px;
+    align-self: center;
 }
 
 /* 
